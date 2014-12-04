@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow:hidden;
+}
+
+.fps {
+    position:absolute;
+    right:20px;
+    color:#0f0;
+    font-size:40px;
+    font-family:'VT323';
+}
+.fps::before {
+    content: '[';
+    color:#f0f;
+}
+.fps::after {
+    color: #f0f;
+    content: '] fps';
+}
+
+#textureCanvas {
+    position:absolute;
+    border:1px solid white;
+    right: 20px;
+    top: 60px;
+    width:256px;
+    height: 256px;
+    opacity:.6;
+    /*display:none;*/
+}
